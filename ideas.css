@@ -1,0 +1,37 @@
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.column {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#row2{
+    flex-direction: row-reverse;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "adidas apple amazon beats"
+        "adidas apple amazon beats";
+    margin-top: 10vh;
+    /* viewport width / viewport height */
+}
+
+/* Grouping the 4 grid area classes together */
+
+.map, .ft_content_1, .ft_content_2, .ft_content_3 {
+    justify-self: center;
+    align-self: center;
+    padding: 3em; /* em's are responsive units */
+    max-height: 50vh;
+    border: 1px solid #eee;
+}
