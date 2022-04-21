@@ -1,4 +1,4 @@
 # theatre
 Christopher's theatre project day 3 of week 1
 
-One of my first ever webpages. Enjoy!
+I'm particularly proud of the footer 🙂
